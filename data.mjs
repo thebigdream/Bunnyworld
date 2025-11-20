@@ -10,7 +10,7 @@ export const presets = [
         "desires": [ "carrot", "chocolate egg" ],
         "img": {
             "gender": "male",
-            "portrait": "/img/bunny01.png",
+            "portrait": "./img/bunny01.png",
         },
         "interests": [ "egg hunting", "picking cabbages", ],
         "names": {
@@ -23,7 +23,7 @@ export const presets = [
         "desires": [ "carrot", "chocolate egg" ],
         "img": {
             "gender": "female",
-            "portrait": "/img/bunny02.png",
+            "portrait": "./img/bunny02.png",
         },
         "interests": [ "ballet", "egg hunting" ],
         "names": {
@@ -36,7 +36,7 @@ export const presets = [
         "desires": [ "hat", "spade" ],
         "img": {
             "gender": "male",
-            "portrait": "/img/gnome02.png",
+            "portrait": "./img/gnome02.png",
         },
         "interests": [ "bird watching", "gardening" ],
         "names": {
