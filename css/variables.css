@@ -1,0 +1,22 @@
+:root {
+    
+    /* Master colour palette */
+    --c-1: #FBFAF3;
+    --c-2: #f9e98e;
+    --c-3: #ADD3EC;
+    --c-4: #F8B500;
+    --c-5: #67BD8C;
+    --c-6: #E73828;
+    --c-7: #007C45;
+    --c-8: #CE005F;
+    --c-9: #29211F;
+
+    /* Spacing scale */
+    --xxs: 2px;
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+    --xl: 32px;
+    --xxl: 48px;
+}

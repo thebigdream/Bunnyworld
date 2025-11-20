@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "get-value": "^4.0.1",
+    "quick-random": "^0.3.1"
+  },
+  "name": "new-projekt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/styles.css -o dist/styles.css --use @tailwindcss/postcss --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

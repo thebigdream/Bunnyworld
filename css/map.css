@@ -1,0 +1,57 @@
+#map {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.leaflet-marker-icon {
+  cursor: pointer;
+}
+
+.leaflet-popup {
+  display: flex;
+  width: fit-content;
+  border-radius: 10px;
+
+  .leaflet-popup-content {
+    width: unset !important;
+  }
+
+  .leaflet-popup-close-button {
+    margin-left: 10px;
+  }
+}
+
+.leaflet-image-layer {
+  width: initial !important;
+  height: initial !important;
+}
+
+:root{
+  /* Controls */         
+  --grid-size: 21px;         
+  --dither-dot-size: 1px;  
+}
+
+.dither-grid {
+
+  background-color: var(--c-2);
+
+  background-image:
+    radial-gradient(circle, var(--c-5) var(--dither-dot-size), transparent calc(var(--dither-dot-size)));
+    
+
+  background-size:
+    var(--grid-size) var(--grid-size),
+    var(--grid-size) var(--grid-size),
+    calc(var(--grid-size) / 4) calc(var(--grid-size) / 4),
+    calc(var(--grid-size) / 4) calc(var(--grid-size) / 4);
+
+  background-position:
+    0 0,                       /* horiz lines */
+    0 0,                       /* vert lines */
+    0 0,                       /* dither A */
+    calc(var(--grid-size) / 8) calc(var(--grid-size) / 8); /* dither B (offset) */
+
+  background-repeat: repeat;
+}

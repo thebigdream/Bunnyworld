@@ -1,0 +1,44 @@
+/* || GENERAL STYLES */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars when panning */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Fira+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Fira Mono', monospace;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-family: 'Fira Mono', monospace;
+}
+
+p {
+    white-space: pre-line;
+}
+
+p, a, ul, span {
+  font-size: 0.8rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.btn {
+  cursor: pointer;
+  align-items: center;
+  border-style: solid;
+  transition: background 0.2s, color 0.2s;
+  text-align: left;
+  justify-content: space-between;
+}

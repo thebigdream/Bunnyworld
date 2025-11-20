@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Game Map</title>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="./css/panel.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="dist/styles.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+    <div class="dither-grid" id="map"></div>
+    <div id="location-panel" class="panel bg-white m-3 border rounded-lg"></div>
+    <a id="time-button" class="btn bg-[var(--c-1)] border border-c-8 rounded-md hover:brightness-90 m-3 p-1">12pm</a>
+    <div id="player-panel" class="panel bg-white m-3 border border-[var(--c-8)] rounded-lg"></div>
+    <div id="character-panel" class="panel bg-white m-3 border border-[var(--c-8)] rounded-lg"></div>
+    <script type="module" src="./game.mjs"></script>
+    <script type="module" src="./map.mjs"></script>
+</body>
+</html>

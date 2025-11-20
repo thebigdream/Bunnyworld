@@ -1,0 +1,35 @@
+.panel {
+    position: absolute !important;
+    z-index: 2;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    max-width: 44%;
+    width: 300px;
+}
+
+#character-panel {
+    bottom: 0%;
+    right: 0%;
+    max-height: 48%;
+}
+
+#location-panel {
+    max-height: 94%;
+    left: 0%;
+    height: fit-content;
+    top: 0px;
+}
+
+#player-panel {
+    top: 5%;
+    right: 0%;
+    max-height: 45%;
+}
+
+#time-button {
+    position: absolute;
+    right: 0cqb;
+    top: 0%;      
+    z-index: 3; 
+    width: fit-content;
+}
