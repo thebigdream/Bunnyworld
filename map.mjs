@@ -18,7 +18,7 @@ const map = L.map('map', {
 const bounds = [[0, 0], [1000, 1000]];
 
 // --- Add Image Overlay (click-through, below markers) ---
-const overlay = L.imageOverlay('/img/map.png', bounds, {
+const overlay = L.imageOverlay('./img/map.png', bounds, {
   pane: 'shadowPane' // Ensure overlay is below markerPane
 });
 
